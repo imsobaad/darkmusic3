@@ -11,6 +11,7 @@ const prefix = '3';
 
 
 client.on('ready', () => { 
+client.user.setGame(`3help`,"http://twitch.tv/S-F")
 console.log(`
 ------------------------------------------------------
 > Logging in...
