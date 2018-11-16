@@ -266,6 +266,11 @@ client.on("message", message => {
 
 
 
+client.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("509813753307725834").join(); //by : ....
+});
+
+
 
 
 client.login(process.env.BOT_TOKEN);
